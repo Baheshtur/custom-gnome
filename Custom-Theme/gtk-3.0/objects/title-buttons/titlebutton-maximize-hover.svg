@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="14" width="14" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 3.7041666 3.7041668">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="titlebutton-maximize-hover" fill-rule="evenodd" transform="matrix(.0040622 0 0 -.0040622 -.041469 3.723)">
+  <path d="m466.14 4.6375c251.8 0 455.92 204.13 455.92 455.92 0 251.8-204.12 455.93-455.92 455.93s-455.93-204.12-455.93-455.93c0-251.8 204.13-455.92 455.93-455.92" fill="#13c11e"/>
+  <path d="m466.14 43.412c230.38 0 417.15 186.77 417.15 417.15s-186.76 417.15-417.15 417.15-417.15-186.76-417.15-417.15c0-230.38 186.76-417.15 417.15-417.15" fill="#39ea49"/>
+  <path d="m342.79 693.21h285.01c37.951 0 69.005-31.054 69.005-69.008v-285.01zm247.81-465.29h-286.13c-37.955 0-69.005 31.05-69.005 69.004v286.14l355.14-355.14" fill="#0b7407"/>
+ </g>
+</svg>
