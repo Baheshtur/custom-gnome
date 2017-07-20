@@ -1485,8 +1485,8 @@ headerbar,
   border-style: solid;
   border-color: #c5c3c6;
   color: rgba(41, 33, 33, 0.8);
-  background-color: #e7e8eb;
-  /*background-image: linear-gradient(to bottom, #e7e8eb, #d3d1d4);*/
+  background-color: transparent;
+  background-image: linear-gradient(to bottom, #e7e8eb, #d3d1d4);
                         }
 
 .csd headerbar,
