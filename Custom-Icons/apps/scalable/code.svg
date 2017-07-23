@@ -5,7 +5,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    viewBox="0 0 1350 1350"
@@ -28,29 +27,7 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs3744">
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient4917">
-      <stop
-         style="stop-color:#0271bc;stop-opacity:1;"
-         offset="0"
-         id="stop4913" />
-      <stop
-         style="stop-color:#0271bc;stop-opacity:0;"
-         offset="1"
-         id="stop4915" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4917"
-       id="linearGradient4919"
-       x1="717.54578"
-       y1="-344.12775"
-       x2="761.43713"
-       y2="4025.7327"
-       gradientUnits="userSpaceOnUse" />
-  </defs>
+     id="defs3744" />
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -61,12 +38,12 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1366"
-     inkscape:window-height="648"
+     inkscape:window-height="714"
      id="namedview3742"
      showgrid="false"
-     inkscape:zoom="0.35631553"
-     inkscape:cx="389.99989"
-     inkscape:cy="683.58247"
+     inkscape:zoom="0.27852631"
+     inkscape:cx="259.13476"
+     inkscape:cy="573.33536"
      inkscape:window-x="0"
      inkscape:window-y="26"
      inkscape:window-maximized="1"
@@ -80,7 +57,7 @@
     <circle
        cy="354.41489"
        cx="677.97211"
-       style="clip-rule:evenodd;fill:url(#linearGradient4919);fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:50;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="clip-rule:evenodd;fill:#0271bc;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:50;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="Circle"
        r="625" />
     <path
