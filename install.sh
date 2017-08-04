@@ -1,3 +1,5 @@
+#!/bin/bash
+
 [ ! -d ~/.icons ] && mkdir ~/.icons
 [ ! -d ~/.themes ] && mkdir ~/.themes
 
@@ -9,7 +11,7 @@ mkdir -p ~/.themes/MacOS-Gnome
 cp -R Custom-Icons/* ~/.icons
 cp -R Custom-Theme/* ~/.themes
 cd ../
-rm -r custom-gnome
+rm -rf custom-gnome
 echo "Cleaning up"
 
 echo "Done!"
