@@ -4,12 +4,12 @@
 [ ! -d ~/.themes ] && mkdir ~/.themes
 
 echo "Copying files to ~/.icons"
-mkdir -p ~/.icons/MacOS-Gnome
+mkdir -p ~/.icons/MacOS-Gnome-Icons
 echo "Copying files to ~/.themes"
-mkdir -p ~/.themes/MacOS-Gnome
+mkdir -p ~/.themes/MacOS-Gnome-Theme
 
-cp -R Custom-Icons/* ~/.icons
-cp -R Custom-Theme/* ~/.themes
+cp -R Custom-Icons/* ~/.icons/MacOS-Gnome-Icons
+cp -R Custom-Theme/* ~/.themes/MacOS-Gnome-Theme
 cd ../
 rm -rf custom-gnome
 echo "Cleaning up"
