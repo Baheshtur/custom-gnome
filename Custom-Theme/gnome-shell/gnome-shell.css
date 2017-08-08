@@ -7,8 +7,9 @@
   transition-duration: 0.2s; }
 
 stage {
-    font-family: sfns display, product sans, helvetica, open sans, source sans pro, segoe ui, ubuntu, nokia pure text, lucida grande, cantarell, sans-serif;
-    font-size: 10.5pt;
+    /*font-family: sfns display, product sans, helvetica, open sans, source sans pro, segoe ui, ubuntu, nokia pure text, lucida grande, cantarell, sans-serif;*/
+    font-family: Futura Bk bt, Cantarell, Sans-Serif;
+    font-size: 10pt;
     color: #333;}
 
 /***********
@@ -776,7 +777,7 @@ StScrollBar {
   #panel .panel-button {
 -natural-hpadding: 6px;/*jarak item2 panel def 12px*/
     -minimum-hpadding: 4px;
-    font-weight: normal;
+    font-weight: bold;
     color: #fff;/*tulisan toolbar scr umum*/
     transition-duration: 200ms;/*nonstatus*/}
     #panel .panel-button .app-menu-icon {
@@ -2399,3 +2400,4 @@ StScrollBar {
   background: #2a373e;
   color: #ECEFF1;
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.54), 0 8px 8px rgba(0, 0, 0, 0.44), 0 4px 4px rgba(0, 0, 0, 0.32); }
+
