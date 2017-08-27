@@ -171,16 +171,16 @@
   </defs>
   <sodipodi:namedview
      id="base"
-     pagecolor="#3d3d3d"
-     bordercolor="#ffffff"
-     borderopacity="1"
+     pagecolor="#6b6b6b"
+     bordercolor="#666666"
+     borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="9"
-     inkscape:cx="19.55087"
-     inkscape:cy="23.653704"
+     inkscape:zoom="8.4965735"
+     inkscape:cx="4.0350183"
+     inkscape:cy="25.88251"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g4471"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -192,15 +192,14 @@
      inkscape:window-y="33"
      inkscape:window-maximized="0"
      inkscape:showpageshadow="false"
-     borderlayer="false"
+     borderlayer="true"
      showguides="false"
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="false"
      inkscape:bbox-nodes="true"
      inkscape:object-nodes="true"
      inkscape:snap-center="true"
-     inkscape:guide-bbox="true"
-     showborder="false">
+     inkscape:guide-bbox="true">
     <inkscape:grid
        type="xygrid"
        id="grid4063" />
@@ -305,20 +304,20 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
+     inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-384.57143,-499.798)">
     <g
        id="g4471"
-       transform="matrix(1.1282012,0,0,1.1282012,21.006689,-69.066463)">
+       transform="matrix(1.0931221,0,0,1.0931221,33.310366,-50.486049)">
       <g
-         inkscape:label="Layer 1"
+         inkscape:label="Capa 1"
          id="layer1-39"
          transform="matrix(1.5444819,0,0,1.5444819,-275.38426,-295.80854)" />
       <g
@@ -328,10 +327,10 @@
         <g
            style="stroke:none;stroke-width:1.29989684;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            transform="matrix(1.5444819,0,0,1.5444819,-275.17538,-295.73877)"
-           inkscape:label="Layer 1"
+           inkscape:label="Capa 1"
            id="layer1-3">
           <circle
-             style="opacity:1;fill:url(#linearGradient4181);fill-opacity:1;stroke:none;stroke-width:0.94059104;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             style="opacity:1;fill:url(#linearGradient4181);fill-opacity:1.0;stroke:none;stroke-width:0.94059104;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
              id="path3377"
              cx="400.57138"
              cy="531.79791"

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=MacOS-Gnome
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=MacOS-Gnome
+MetacityTheme=MacOS-Gnome
+Buttonlayout=close,minimize,maximize:
