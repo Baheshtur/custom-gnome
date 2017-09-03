@@ -14,8 +14,8 @@ if [ "$(id -u)" -ne 0 ]; then
 	echo "Copying files to ~/.icons"
 	cp -R Custom-Icons/* ~/.icons/MacOS-Gnome-Icons
 
-	echo "Changing buttons position"
-	gsettings set org.gnome.desktop.wm.preferences button-layout 'close,minimize,maximize:'
+	#echo "Changing buttons position"
+	#gsettings set org.gnome.desktop.wm.preferences button-layout 'close,minimize,maximize:'
 
 	echo "Done!"
 	echo "You might need to restart Gnome for some changes to take effect."
@@ -31,8 +31,8 @@ else
 	echo "Copying files to /usr/share/icons/MacOS-Gnome-Theme"
 	cp -R Custom-Theme/* /usr/share/themes/MacOS-Gnome-Theme
 
-	echo "Changing buttons position"
-	gsettings set org.gnome.desktop.wm.preferences button-layout 'close,minimize,maximize:'
+	#echo "Changing buttons position"
+	#gsettings set org.gnome.desktop.wm.preferences button-layout 'close,minimize,maximize:'
 
 	echo "Done!"
 	echo "You might need to restart Gnome for some changes to take effect."
