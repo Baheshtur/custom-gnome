@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 1350 1350"
+   version="1.1"
+   id="svg3740"
+   sodipodi:docname="code.svg"
+   inkscape:version="0.92.1 r15371"
+   width="1350"
+   height="1350">
+  <metadata
+     id="metadata3746">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3744" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="714"
+     id="namedview3742"
+     showgrid="false"
+     inkscape:zoom="0.27852631"
+     inkscape:cx="259.13476"
+     inkscape:cy="573.33536"
+     inkscape:window-x="0"
+     inkscape:window-y="26"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="iconBg"
+     showguides="false" />
+  <style
+     id="style3733">.icon-canvas-transparent{opacity:0;fill:#f6f6f6}.icon-white{fill:#fff}.icon-visualstudio-online{fill:#007acc}</style>
+  <g
+     id="iconBg"
+     transform="translate(0,326)">
+    <circle
+       cy="354.41489"
+       cx="677.97211"
+       style="clip-rule:evenodd;fill:#0271bc;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:50;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="Circle"
+       r="625" />
+    <path
+       class="icon-visualstudio-online"
+       d="M 844.26157,9.931904 565.44841,288.74509 389.26159,149.9319 l -70,35 v 350 l 70,35 L 566.26295,431.99531 844.26157,709.9319 1019.2616,638.74509 V 79.670994 Z M 389.26159,468.11371 v -213.1818 l 105,104.99999 z M 844.26157,502.30554 660.36283,359.9319 844.26157,217.55826 Z"
+       id="path3737"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.79545462" />
+  </g>
+</svg>
