@@ -1,39 +1,24 @@
 #!/bin/sh
 
 if [ "$(id -u)" -ne 0 ]; then
-	echo "Installing theme locally..."
-	sleep 1
-	[ ! -d ~/.icons ] && mkdir ~/.icons
-	[ ! -d ~/.themes ] && mkdir ~/.themes
-
-	mkdir -p ~/.themes/MacOS-Gnome-Theme
-	echo "Copying files to ~/.themes"
-	cp -R Custom-Theme/* ~/.themes/MacOS-Gnome-Theme
-
-	mkdir -p ~/.icons/MacOS-Gnome-Icons
-	echo "Copying files to ~/.icons"
-	cp -R Custom-Icons/* ~/.icons/MacOS-Gnome-Icons
-
-	#echo "Changing buttons position"
-	#gsettings set org.gnome.desktop.wm.preferences button-layout 'close,minimize,maximize:'
-
-	echo "Done!"
-	echo "You might need to restart Gnome for some changes to take effect."
+	DEST_ICONS=~/.icons/
+	DEST_THEME=~/.themes/
+	MSG="Installing theme locally..."
 else
-	echo "Installing theme globally..."
-	sleep 1
-
-	mkdir -p /usr/share/icons/MacOS-Gnome-Icons
-	echo "Copying files to /usr/share/icons/MacOS-Gnome-Icons"
-	cp -R Custom-Icons/* /usr/share/icons/MacOS-Gnome-Icons
-
-	mkdir -p /usr/share/themes/MacOS-Gnome-Theme
-	echo "Copying files to /usr/share/icons/MacOS-Gnome-Theme"
-	cp -R Custom-Theme/* /usr/share/themes/MacOS-Gnome-Theme
-
-	#echo "Changing buttons position"
-	#gsettings set org.gnome.desktop.wm.preferences button-layout 'close,minimize,maximize:'
-
-	echo "Done!"
-	echo "You might need to restart Gnome for some changes to take effect."
+	DEST_ICONS=/usr/share/icons/
+	DEST_THEME=/usr/share/themes/
+	MSG="Installing theme globally..."
 fi
+
+echo $MSG
+sleep 1
+[ ! -d $DEST_ICONS ] && mkdir -p $DEST_ICONS/MacOS-Gnome-Icons
+[ ! -d $DEST_THEME ] && mkdir -p $DEST_THEME/MacOS-Gnome-Theme
+
+cp -R -v Custom-Icons/* $DEST_ICONS/MacOS-Gnome-Icons
+cp -R -v Custom-Theme/* $DEST_THEME/MacOS-Gnome-Theme
+
+#echo "Changing buttons position"
+#gsettings set org.gnome.desktop.wm.preferences button-layout 'close,minimize,maximize:'
+
+echo "Done!"
