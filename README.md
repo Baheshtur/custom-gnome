@@ -1,5 +1,4 @@
-### Personal custom settings
-I mix of things I set up for my GNOME
+### A
 
 * OSX-Arc-Darker: https://github.com/LinxGem33/OSX-Arc-Darker
 * Gn-OSX H.Sierra: https://www.gnome-look.org/p/1180505/show/page/1
