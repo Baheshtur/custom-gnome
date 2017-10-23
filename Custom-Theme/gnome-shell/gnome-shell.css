@@ -706,7 +706,7 @@ StScrollBar {
   padding: 12px;
   border-radius: 2px;
   border: none;
-  color: #ECEFF1;
+  color: #333;
   background-color: rgba(255, 255, 255, 0.85);
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.54), 0 8px 8px rgba(0, 0, 0, 0.44), 0 4px 4px rgba(0, 0, 0, 0.32); }
 
