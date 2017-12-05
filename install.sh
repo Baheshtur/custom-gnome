@@ -24,7 +24,4 @@ else
 	rsync -hazv Custom-Theme/ $DEST_THEME/MacOS-Gnome-Theme/
 fi
 
-#echo "Changing buttons position"
-#gsettings set org.gnome.desktop.wm.preferences button-layout 'close,minimize,maximize:'
-
 echo "Done!"
