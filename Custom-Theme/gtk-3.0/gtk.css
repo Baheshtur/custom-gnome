@@ -220,7 +220,7 @@ entry.warning {
   color: white;
   border-color: #F27835;
   background-color: #f7ae86; }
-  
+
 entry.warning image {
 
   color: white; }
@@ -242,9 +242,9 @@ entry.error {
   color: white;
   border-color: #FC4138;
   background-color: #fd8d88; }
-  
+
 entry.error image {
-  
+
   color: white; }
 
 entry.error:focus {
@@ -429,7 +429,7 @@ button:disabled label, button:disabled {
 
   color: rgba(92, 97, 108, 0.55); }
 
-button:disabled:active, 
+button:disabled:active,
 button:disabled:checked {
 
   border-color: rgba(82, 148, 226, 0.75);
@@ -1020,12 +1020,12 @@ headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:disabled
 .primary-toolbar .linked:not(.vertical).path-bar > button,
 headerbar .linked:not(.vertical).path-bar > button,
 .primary-toolbar .linked:not(.vertical).path-bar > button:hover,
-headerbar .linked:not(.vertical).path-bar > button:hover, 
+headerbar .linked:not(.vertical).path-bar > button:hover,
 .primary-toolbar .linked:not(.vertical).path-bar > button:active,
-headerbar .linked:not(.vertical).path-bar > button:active, 
+headerbar .linked:not(.vertical).path-bar > button:active,
 .primary-toolbar .linked:not(.vertical).path-bar > button:checked,
 headerbar .linked:not(.vertical).path-bar > button:checked,
-.primary-toolbar .linked:not(.vertical).path-bar > button:disabled, 
+.primary-toolbar .linked:not(.vertical).path-bar > button:disabled,
 .linked:not(.vertical).path-bar > button:disabled,
 .linked:not(.vertical) > combobox > box > button.combo:dir(ltr),
 .linked:not(.vertical) > combobox > box > button.combo:dir(rtl) {
@@ -1087,12 +1087,12 @@ headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:last-chi
 headerbar .linked:not(.vertical).path-bar > button:last-child,
 /*.linked:not(.vertical) > spinbutton:last-child:not(.vertical),*/
 toolbar.inline-toolbar toolbutton:backdrop:last-child > button.flat{
- 
+
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   border-style: solid;
   margin-left:-1px;
-  } 
+  }
 
 .linked:not(.vertical) > entry:only-child,
 .inline-toolbar button:only-child,
@@ -1135,7 +1135,7 @@ spinbutton.vertical entry:first-child,
 .linked.vertical > entry:last-child,
 .linked.vertical > button:last-child,
 spinbutton.vertical button:last-child,
-spinbutton.vertical entry:last-child, 
+spinbutton.vertical entry:last-child,
 .linked.vertical > combobox:last-child > box > button.combo {
 
   border-bottom-left-radius: 5px;
@@ -1164,7 +1164,7 @@ notebook > header > tabs > tab button.sidebar-button:hover,
 notebook > header > tabs > tab button.flat:active,
 notebook > header > tabs > tab button.sidebar-button:active,
 notebook > header > tabs > tab button.flat:active:hover,
-notebook > header > tabs > tab button.sidebar-button:active:hover, 
+notebook > header > tabs > tab button.sidebar-button:active:hover,
 .app-notification button.flat,
 .app-notification button.sidebar-button,
 .app-notification button.flat:disabled,
@@ -1401,8 +1401,8 @@ toolbar.osd.left,
 .osd.left.inline-toolbar,
 toolbar.osd.right,
 .osd.right.inline-toolbar,
-toolbar.osd.top, 
-.osd.top.inline-toolbar, 
+toolbar.osd.top,
+.osd.top.inline-toolbar,
 toolbar.osd.bottom,
 .osd.bottom.inline-toolbar {
 
@@ -1614,9 +1614,9 @@ headerbar entry, headerbar button, headerbar separator {
   border-top-color: rgba(0, 0, 0, 0.06);
   background-color: rgba(255,255,255,0.98);}  */
 
-separator:first-child + headerbar, 
-separator:first-child + headerbar:backdrop, 
-headerbar:first-child, 
+separator:first-child + headerbar,
+separator:first-child + headerbar:backdrop,
+headerbar:first-child,
 headerbar:first-child:backdrop {
 
   border-top-left-radius: 5px; }
@@ -1656,7 +1656,7 @@ window.csd > .titlebar:not(headerbar):backdrop {
 
   background-image: linear-gradient(to bottom, #d4d5db, #d4d5db); }
 
-.primary-toolbar:not(.libreoffice-toolbar) separator, 
+.primary-toolbar:not(.libreoffice-toolbar) separator,
 headerbar separator.titlebutton,
 .titlebar:not(headerbar) separator.titlebutton {
 
@@ -1678,7 +1678,7 @@ headerbar separator.titlebutton:backdrop,
   background-color: rgba(255, 255, 255, 0.9); }
 
 .primary-toolbar entry image, headerbar entry image,
-.primary-toolbar entry image:hover, 
+.primary-toolbar entry image:hover,
 headerbar entry image:hover {
 
   color: inherit; }
@@ -1696,7 +1696,7 @@ headerbar entry:focus {
   background-color: #206AD9;
   background-clip: border-box; }
 
-.primary-toolbar entry:focus image, 
+.primary-toolbar entry:focus image,
 headerbar entry:focus image {
 
   color: #ffffff; }
@@ -1851,7 +1851,7 @@ headerbar .linked:not(.vertical):not(.path-bar) > button:checked,
 headerbar .linked:not(.vertical):not(.path-bar) > button:disabled {
 
   border-radius: 5px;
-  border-style: solid; 
+  border-style: solid;
   /*box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08); }*/}
 
 .primary-toolbar .linked:not(.vertical):not(.path-bar) > button:not(:checked):not(:active):not(.suggested-action):not(.destructive-action):hover:not(:only-child),
@@ -3151,17 +3151,17 @@ headerbar switch {
 
 switch:disabled {
 
- 
+
   color: alpha(currentColor, 0.4); }
 
 switch:checked {
 
-  
+
   background-color: #71c837; }
 
 switch:checked:disabled {
 
- 
+
   background-color: rgba(12, 170, 240, 0.2);
   color: rgba(0, 0, 0, 0.32); }
 
@@ -3180,7 +3180,7 @@ switch slider {
    }
 
 switch:hover slider {
-    
+
   border-image: none;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 3px rgba(0, 0, 0, 0.23); }
 
@@ -4008,7 +4008,7 @@ expander arrow:dir(rtl) {
   -gtk-icon-source: -gtk-icontheme("pan-end-symbolic-rtl"); }
 
 expander arrow:hover {
- 
+
   color: #aaaeb7; }
 
 expander arrow:checked {
@@ -4339,7 +4339,7 @@ infobar.question button.flat,
 infobar.question button.sidebar-button,
 infobar.warning button.flat,
 infobar.warning button.sidebar-button,
-infobar.error button.flat, 
+infobar.error button.flat,
 infobar.error button.sidebar-button,
 .nautilus-window .floating-bar button.flat,
 .nautilus-window .floating-bar button.sidebar-button {
@@ -4954,7 +4954,7 @@ modelbutton.flat:active arrow:disabled,
 modelbutton.flat:disabled:selected,
 modelbutton.flat:selected arrow:disabled,
 treeview.view:disabled:selected:focus,
-row:disabled:selected, 
+row:disabled:selected,
 calendar:disabled:selected{
 
   color: #90b5ec; }
@@ -5663,7 +5663,7 @@ UnityDecoration {
 
 UnityPanelWidget,
 .unity-panel {
-  background-image: linear-gradient(to bottom, #2f343f, #2f343f);
+  background-image: linear-gradient(to bottom, #2e3440, #2e3440);
   color: #f6f7f9;
   box-shadow: none; }
   UnityPanelWidget:backdrop,
@@ -6098,7 +6098,7 @@ GtkListBox .h4 {
 #greeter_infobar {
   border-bottom-width: 0;
   font-weight: bold }
- 
+
 .nautilus-window paned > separator {
 
   background-image: linear-gradient(to bottom, rgba(240, 242, 248, 0.85), rgba(240, 242, 248, 0.85)); }
@@ -6119,7 +6119,7 @@ filechooser.csd.background,
 filechooser placessidebar list,
 .nautilus-window.csd.background,
 .nautilus-window placessidebar list {
-  
+
   background-color: transparent; }
 
 filechooser placessidebar.sidebar,
@@ -6129,10 +6129,10 @@ filechooser placessidebar.sidebar,
   background-image:/*linear-gradient(to bottom,rgba(242,243,246,0.8),rgba(226,226,226,0.8)),*/
                     /*linear-gradient(to bottom right,rgba(222,219,219,0.92),rgba(242,243,246,0.92))*/
                     linear-gradient(to bottom left,rgba(242,243,246,0.92),rgba(213,218,224,0.92),rgba(224,213,213,0.92));}
-  
+
 filechooser placessidebar.sidebar row.sidebar-row,
 .nautilus-window placessidebar.sidebar row.sidebar-row {
- 
+
   border: none;
   color: black; }
 
@@ -6318,7 +6318,7 @@ filechooser actionbar label, filechooser actionbar combobox {
 
 filechooser actionbar button {
 
-  
+
   color: #505050;
   border-color: rgba(198, 205, 229, 0.25);
   background-color: rgba(255, 255, 255, 0.25); }
@@ -6402,7 +6402,6 @@ filechooser placessidebar.sidebar scrollbar trough,
 /*******************************************************************************/
 
 /*********************************************************************/
-
 
 @define-color theme_fg_color #252525;
 @define-color theme_text_color #252525;
